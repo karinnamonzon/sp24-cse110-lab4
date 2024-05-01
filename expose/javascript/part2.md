@@ -18,7 +18,7 @@
     E. Access index zero in the array of the courseLoad property of the student object: student.courseLoad[0]
 
 13. Arithmetic
-    ⋅⋅1.'3' + 2 = 32 since using + operator with string '3' it concatenates 2 at the end instead of numerical addition.
+    ..1.'3' + 2 = 32 since using + operator with string '3' it concatenates 2 at the end instead of numerical addition.
     B. '3' - 2 = 1 when useing - the string '3' is concerted to a number than performs substraction so 3 - 2 = 1
     C. 3 + null = 3 because wehn null is used in numerica operators it is treated as a 0
     D. '3' + null = 3null using the + sign will concatenate the string '3' with string null
