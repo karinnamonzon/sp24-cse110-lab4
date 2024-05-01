@@ -42,4 +42,4 @@
 17. If the code called with the following parameters modifyArray([1,2,3], doSomething) the result will be [2, 4, 6]. In modifyArray tge for loop iterates over each element of the input array and for each element doSomething is called witht he current element as its argument. The oSomething fucntion multiplies this element by 2 and the result is pushed to newArr. After going through all the element, newArr become [2, 4, 6] which is returned.
     
 18. Link to [part2-question16.js](https://github.com/karinnamonzon/sp24-cse110-lab4/blob/main/expose/javascript/part2-question18.js)
-19. The output of the original code in 18 outputs the current time which includes the hour, minute, and second.
+19. The output of the original code in 18 outputs the current time which includes the hour, minute, and second. Example 10:35:45 PM
