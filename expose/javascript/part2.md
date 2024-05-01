@@ -1,6 +1,6 @@
 # Part 2
 1. At line 12 the code prints 3 because that is the length of the array
-2. At line 13 the code prints 150 which is the calculated 
+2. At line 13 the code prints 150 which is the calculated discountedPrice
 3. At line 14 the code prints 150 which is the calculated finalPrice
 4. The function does not return anything because while it returns discounted, nothing is being done to it like console.log which would return the array discounted.
 5. At line 12 returns an error because i is not in the same block that line 13 calls it, a reference error. 
