@@ -8,7 +8,7 @@
 7. At line 14 returns 150 because the array discounted is edclared in the same block or scope as line 14.
 8. The function returns nothing because while it returns discounted, nothing is being done to it like console.log which would return the array discounted.
 9. At line 11 the code will result in an error because i is not declared in the same block as console.log(i) so there is a error in scope.
-10. At line 12 it returns the value 3 because that is the lenfrh of the initial array prices which is 3.
+10. At line 12 it returns the value 3 because that is the length of the initial array prices which is 3.
 11. The function returns nothing to the console as nothing is being done to it, but if console.log was used it would return the array discounted and its length.
 12. Notations
     * Accessing the value of the name property in the student object: student.name
@@ -20,7 +20,7 @@
 13. Arithmetic
     * '3' + 2 = 32 since using + operator with string '3' and integers map to their exact string representation it concatenates 2 at the end instead of numerical addition.
     * '3' - 2 = 1 when useing - the string '3' is concerted to a number than performs substraction so 3 - 2 = 1
-    * 3 + null = 3 because wehn null is used in numerica operators it is treated as a 0
+    * 3 + null = 3 because wehn null is used in numerical operators it is treated as a 0
     * '3' + null = 3null using the + sign will concatenate the string '3' with string null
     * true + 3 = 4 since true has binary value 1 so 1 + 3 = 4
     * false + null = 0 since false has binary value 0 and null is 0, 0 + 0 = 0
@@ -37,7 +37,7 @@
    
 15. The difference between == and === operators are that == does type conversion of operands before comparison and === compares values and data types of operands. In short == performs conversion before comparing values and === comapres vales and types stricly and helps avoid unexpected behavior caused by converion.
 
-16. []() \ the output should is 21 45 5 2
+16. [link to part2-question16.js](https://github.com/karinnamonzon/sp24-cse110-lab4/blob/main/expose/javascript/part2-question16.js) the output is 21 45 5 2
 
-17. 
+17. If the code called with the following parameters modifyArray([1,2,3], doSomething) the result will be [2, 4, 6]. In modifyArray tge for loop iterates over each element of the input array and for each element doSomething is called witht he current element as its argument. The oSomething fucntion multiplies this element by 2 and the result is pushed to newArr. After going through all the element, newArr become [2, 4, 6] which is returned.
     
